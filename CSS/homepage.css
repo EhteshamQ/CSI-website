@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: fff;
+}
+.navbar-custom {
+        background-color: rgba(0, 0, 0, .85)  ;
+        color: aliceblue;
+}
+
+#heading{
+    font-size: 1.5em;
+    font-weight: 500;
+    
+}
+
+#navbarcontent .nav-item > .nav-link{
+    color: #999;
+    transition: ease-in-out cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+#heading{
+    color:white;
+}
