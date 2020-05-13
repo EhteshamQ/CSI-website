@@ -185,6 +185,7 @@ body {
 .jumbotron {
   margin-bottom: 0;
   padding: 2rem 3.5rem;
+ 
 }
 
 h3.heading{
@@ -224,13 +225,13 @@ font-size: 1.1rem;
 /* ---- Fixed Bg section ---- */
 
 .fixed{
-  background-image: url("img/apple.png");
+  background-image: url("img/jumbotron/photo-1569748130764-3fed0c102c59.jpg");
   z-index: -1;
 
 }
 
 .dark{
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
   padding: .7rem .2rem;
 }
