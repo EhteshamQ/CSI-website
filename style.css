@@ -47,6 +47,33 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+/* =========================================
+                Preloader
+============================================ */
+/*
+#preloader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+
+#status {
+  background-image: url("img/preloader/preloader.gif");
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+}
+*/
 
 body {
   overflow-x: hidden;
@@ -82,6 +109,7 @@ body {
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
   color: #1EBBA3
 }
+
 
 /*   Image For Display*/
 
@@ -245,3 +273,5 @@ hr.socket{
 width: 100%;
 border-top: .2rem solid #505962;
 }
+
+
