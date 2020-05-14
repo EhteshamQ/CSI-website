@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 /*============= COURSE SECTION =============*/
 
 .narrow {
@@ -75,24 +77,50 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 */
 
+html,
+body {
+    height: 100%;
+}
+
 body {
   overflow-x: hidden;
-  font-family: 'Open Sans', sans-serif;
-  color: #505962
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #262e45
+}
+
+#home {
+  background: #262e45;
+  height: 100%;
 }
 
 /*-- navigation --*/
 
 .navbar {
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.9rem;
-  letter-spacing: .1rem;
-  background: rgba(255, 255, 255, 0.6) !important;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  word-spacing: 60px;
+  height: 81px;
+  font-size: 18px;
+  background-color: transparent;
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
+  color: #262e45;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  transition: all 1s;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
 }
 
 .navbar-brand img {
-  height: 2rem;
+  height: 4rem;
+  
 }
 
 .navbar-nav li {
@@ -100,37 +128,69 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(239, 241, 228);
+  color: #0E2E70;
   padding-top: .8rem;
 }
 
 /* Hover Effect over NavBar Titles  */
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #262e45
+  color: #000000 
+}
+
+/* White */
+
+.white-nav-top {
+    text-transform: uppercase;
+    letter-spacing: normal;
+    z-index: 999;
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    transition: all 1s;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+
+
+.white-nav-top .navbar-nav>li {
+  color: #212226;
+}
+
+.white-nav-top .navbar-nav>li:hover,
+.white-nav-top .navbar-nav>li:focus {
+    color: #000000 ;
 }
 
 
 /*   Image For Display*/
 
+/*#home-bg-video {
+  position: fixed;
+  background: url("../img/video/particles.png") no-repeat;
+}*/
+
 .home-inner {
-  background-image: url("img/computers.png");
-}
+  background-image: url("img/jumbotron/dreams.png");
+  }
 
 /*caption */
 
 .caption {
-  position: absolute;
+  position: center;
   max-width: 100%;
   width: 100%;
   z-index: 1;
   text-transform: uppercase;
-  color: rgb(165, 171, 180);
+  color: #000000;
   position: absolute;
   left: 50%;
   margin-left: -50%;
   top: 50%;
   margin-right: -50%;
+  vertical-align: middle;
 }
 
 .caption h1 {
@@ -274,5 +334,10 @@ hr.socket{
 width: 100%;
 border-top: .2rem solid #505962;
 }
+
+/*----------------------------------------------------------------------*/
+/* Media Queries */
+
+
 
 
