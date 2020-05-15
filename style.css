@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
-
 /*============= COURSE SECTION =============*/
 
 .narrow {
@@ -49,9 +48,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
 /* =========================================
                 Preloader
 ============================================ */
+
 /*
 #preloader {
   background-color: #fff;
@@ -77,9 +78,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 */
 
-html,
-body {
-    height: 100%;
+html, body {
+  height: 100%;
 }
 
 body {
@@ -120,7 +120,6 @@ body {
 
 .navbar-brand img {
   height: 4rem;
-  
 }
 
 .navbar-nav li {
@@ -135,35 +134,32 @@ body {
 /* Hover Effect over NavBar Titles  */
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-  color: #000000 
+  color: #000000
 }
 
 /* White */
 
 .white-nav-top {
-    text-transform: uppercase;
-    letter-spacing: normal;
-    z-index: 999;
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
-    transition: all 1s;
-    transition-property: all;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-  }
-
+  text-transform: uppercase;
+  letter-spacing: normal;
+  z-index: 999;
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+  transition: all 1s;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
 
 .white-nav-top .navbar-nav>li {
   color: #212226;
 }
 
-.white-nav-top .navbar-nav>li:hover,
-.white-nav-top .navbar-nav>li:focus {
-    color: #000000 ;
+.white-nav-top .navbar-nav>li:hover, .white-nav-top .navbar-nav>li:focus {
+  color: #000000;
 }
-
 
 /*   Image For Display*/
 
@@ -174,7 +170,7 @@ body {
 
 .home-inner {
   background-image: url("img/jumbotron/dreams.png");
-  }
+}
 
 /*caption */
 
@@ -245,99 +241,94 @@ body {
 .jumbotron {
   margin-bottom: 0;
   padding: 2rem 3.5rem;
- 
 }
 
-h3.heading{
-  font-size:1.9rem;
+h3.heading {
+  font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom:1.9rem ;
-
+  margin-bottom: 1.9rem;
 }
 
-.heading-underline{
+.heading-underline {
   width: 3rem;
   height: .2rem;
   background-color: #189582;
   margin: 0 auto 2rem;
-
-
 }
 
 /* icon classes */
 
-.feature .svg-inline--fa{
-color: #189582;
+.feature .svg-inline--fa {
+  color: #189582;
 }
 
-.feature h3{
+.feature h3 {
   font: 1.3rem;
   padding-bottom: .4rem;
 }
-.feature p{
 
-font-size: 1.1rem;
-
+.feature p {
+  font-size: 1.1rem;
 }
-
 
 /* ---- Fixed Bg section ---- */
 
-.fixed{
+.fixed {
   background-image: url("img/jumbotron/photo-1569748130764-3fed0c102c59.jpg");
   z-index: -1;
-
 }
 
-.dark{
+.dark {
   background-color: rgba(0, 0, 0, 0.45);
   color: white;
   padding: .7rem .2rem;
 }
 
-.fixed-background h3{
-margin-bottom: 2rem;
+.fixed-background h3 {
+  margin-bottom: 2rem;
 }
 
-.fixed-background p{
-margin-top: 1.5rem;
-
+.fixed-background p {
+  margin-top: 1.5rem;
 }
-
 
 /*    Footer  */
-footer{
+
+footer {
   background-color: aliceblue;
   color: white;
   padding: 2rem 0 2rem;
-  
 }
 
-footer img{
+footer img {
   margin: 1.5rem 0;
 }
 
-footer a{
+footer a {
   color: white;
 }
-footer .svg-inline--fa{
+
+footer .svg-inline--fa {
   font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0; 
+  margin: 1.2rem .5rem 0 0;
 }
 
-footer .svg-inline--fa:hover{
+footer .svg-inline--fa:hover {
   color: #944a04 !important;
 }
 
-hr.socket{
-width: 100%;
-border-top: .2rem solid #505962;
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #505962;
+}
+
+#contact-right {
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  padding: 10px;
 }
 
 /*----------------------------------------------------------------------*/
+
 /* Media Queries */
-
-
-
-
